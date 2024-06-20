@@ -1,0 +1,9 @@
+[[polyfill_glibc]]
+arch = "x86_64"
+git-tree-sha1 = "ddc63548d490f267b898a052966719d11ccf0a94"
+libc = "glibc"
+os = "linux"
+
+    [[polyfill_glibc.download]]
+    sha256 = "ad1733f8c5db8fdd387b977f2a39d8a277ceb0070eebd23cf6f6c754331e9ecf"
+    url = "https://github.com/JuliaBinaryWrappers/polyfill_glibc_jll.jl/releases/download/polyfill_glibc-v0.1.0+0/polyfill_glibc.v0.1.0.x86_64-linux-gnu.tar.gz"
